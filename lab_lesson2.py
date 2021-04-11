@@ -12,7 +12,7 @@ def digit_check(digit):
         if ("0" in digit) == True:
             print("Вы ввели 0! Попытайтесь еще раз...")
         elif ("-" in digit) == True:
-            print("Вы ввели отрицатльное! Попытайтесь еще раз...")
+            print("Вы ввели отрицатльное число! Попытайтесь еще раз...")
         elif(not digit.isdigit()):
             print("Вы ввели не число! Попытайтесь еще раз...")
         digit = input("\n")
