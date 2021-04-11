@@ -28,7 +28,7 @@ side_length = []
 def check(a, b):
     if a == b:
         side_length.append(a)
-        return a
+        return 1
     if a > b:
         side_length.append(b)
         return check(a - b, b)
